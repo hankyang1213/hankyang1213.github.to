@@ -221,8 +221,8 @@ a{
 
 /*日誌*/
 .datepaper{
-  width: 100%;
-  padding: 40px 312px;
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -233,7 +233,7 @@ a{
   
 }
 .datepaper li img{
-  max-width: 100%;
+  width: 100%;
 }
 .datepaper li time{
   display: block;
@@ -268,6 +268,7 @@ a{
 }
 @media(max-width:768px){
   .datepaper{
+    width: 100%;
     padding: 0px 0px;
     flex-direction: column;
   }
